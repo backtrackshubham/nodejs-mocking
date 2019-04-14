@@ -4,12 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "lab test/testUtil.js"
+    "test": "lab -v --assert should test/test.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "code": "^5.2.1",
     "require": "^2.4.20",
     "rewire": "^4.0.1",
     "should": "^13.2.3",
