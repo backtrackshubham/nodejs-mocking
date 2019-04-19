@@ -5,8 +5,13 @@ const callBackDivide = (x, y, callback) => {
         callback(null, x / y)
 };
 
+const callBackApi = (param, callback) => {
+    callback(param)
+}
+
 module.exports = {
     add,
     sub,
-    callBackDivide
+    callBackDivide,
+    callBackApi
 }

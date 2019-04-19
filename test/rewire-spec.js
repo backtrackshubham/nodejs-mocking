@@ -1,7 +1,7 @@
 const rewire = require('rewire');
 let lamb = (value) => value * 10;
-let util = require('../blog/monkey-patch.js');
-let rewiredUtil = rewire('../blog/monkey-patch.js');
+let util = require('../blog/monkey-patching/monkey-patch.js');
+let rewiredUtil = rewire('../blog/monkey-patching/monkey-patch.js');
 
 
 module.exports = ({describe, it, beforeEach, afterEach}) => {

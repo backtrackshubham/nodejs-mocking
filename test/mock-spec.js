@@ -1,7 +1,7 @@
 const sinon = require('sinon');
 
-let util = require('../blog/util.js');
-let dep = require('../blog/dependency.js');
+let util = require('../blog/stubs/util.js');
+let dep = require('../blog/stubs/dependency.js');
 
 
 module.exports = ({it, beforeEach, afterEach, describe}) => {
